@@ -2,10 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1.125rem;
+}
+
+img, svg {
+    width: 100%;
+    display: block;
 }
 
 body {
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #F4F5EC;
 
     font-family: degular, sans-serif;
@@ -13,8 +22,116 @@ font-weight: 400;
 font-style: normal;
 }
 
+h2 {
+    font-size: 1.5rem;
+font-weight: 500;
+padding-bottom: 2rem;
+}
+
 header {
     font-family: degular, sans-serif;
 font-weight: 800;
 font-style: normal;
+width: 80%;
+padding-top: 1rem;
 }
+
+section {
+    width: 80%;
+}
+
+.divider {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.topnav li {
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+
+.topnav a {
+    font-weight: 500;
+font-style: normal;
+text-decoration: none;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.topnav a:hover {
+text-decoration: underline;
+}
+
+#about {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about main {
+    width: 50%;
+}
+
+#about figure {
+    width: 25%;
+    aspect-ratio: 1 / 1;
+}
+
+#projects {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+#projects .project {
+    flex-basis: 1;
+    min-width: 20%;
+    border: 1px solid black;
+
+}
+
+#projects h3 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 0.5rem 0;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+#projects h4 {
+    font-size: 1rem;
+    padding: 1rem;
+    font-weight: 400;
+}
+
+.prj-img {
+    filter: saturate(0%);
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.prj-img:hover {
+    filter: saturate(100%);
+    padding: 0.5rem;
+}
+
+.icons {
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.prj-ico {
+    width: 12.5%;
+    aspect-ratio: 1 / 1;
+    display: inline;
+}
+
+
+
+.project p {
+    font-weight: 200;
+    font-size: 1rem;
+    padding: 0rem 1rem 1rem 1rem;
+}
+
