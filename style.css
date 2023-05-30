@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 1.125rem;
+    letter-spacing: 0.05rem;
 }
 
 img, svg {
@@ -26,6 +27,12 @@ h2 {
     font-size: 1.5rem;
 font-weight: 500;
 padding-bottom: 2rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-top: 1.25rem;
 }
 
 header {
@@ -63,7 +70,7 @@ text-decoration: underline;
 }
 
 #about {
-    padding-top: 3rem;
+    padding-top: 4rem;
     display: flex;
     justify-content: space-between;
 }
@@ -78,17 +85,21 @@ text-decoration: underline;
 }
 
 #projects {
-    padding-top: 3rem;
+    padding-top: 4rem;
     display: flex;
     justify-content: space-between;
     gap: 1rem;
 }
 
 #projects .project {
-    flex-basis: 1;
-    min-width: 20%;
+    flex: 1 2 150px;
+    /* min-width: 20%; */
     border: 1px solid black;
+}
 
+#projects main {
+    flex: 2.5 1 250px;
+    padding-left: 5%;
 }
 
 #projects h3 {
@@ -106,14 +117,14 @@ text-decoration: underline;
 }
 
 .prj-img {
-    filter: saturate(0%);
+    filter: saturate(100%);
     transition: all 0.5s;
     cursor: pointer;
     padding: 1rem;
 }
 
 .prj-img:hover {
-    filter: saturate(100%);
+    filter: saturate(0%);
     padding: 0.5rem;
 }
 
@@ -127,11 +138,26 @@ text-decoration: underline;
     display: inline;
 }
 
-
-
 .project p {
     font-weight: 200;
     font-size: 1rem;
     padding: 0rem 1rem 1rem 1rem;
 }
 
+#skills {
+    padding-top: 5rem;
+}
+
+.skill {
+    cursor: pointer;
+}
+
+.skill-ul {
+    display: none;
+}
+
+#contact {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
