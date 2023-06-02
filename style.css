@@ -83,6 +83,43 @@ text-decoration: underline;
     width: 50%;
 }
 
+.available {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    padding: 0.5rem 1.25rem 0.5rem 0.75rem;
+    display: inline-flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.available span {
+    position: relative;
+    bottom: 0.1rem;
+}
+
+a.available {
+    text-decoration: none;
+    color: #000;
+}
+
+.available:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.circle {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: #44D37B;
+    filter: drop-shadow(0px 0px 0.25rem rgba(68, 211, 123, 0.7));
+}
+
 #about figure {
     width: 25%;
     aspect-ratio: 1 / 1;
