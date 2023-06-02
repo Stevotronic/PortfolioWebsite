@@ -28,7 +28,7 @@ font-style: normal;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 font-weight: 500;
 padding-bottom: 2rem;
 }
@@ -126,7 +126,7 @@ a.available {
 }
 
 #projects {
-    padding-top: 4rem;
+    padding-top: 8rem;
     display: flex;
     justify-content: space-between;
     gap: 1rem;
@@ -186,7 +186,7 @@ a.available {
 }
 
 #skills {
-    padding-top: 6rem;
+    padding-top: 8rem;
 }
 
 .skill {
@@ -207,7 +207,7 @@ a.available {
 }
 
 #contact {
-    padding-top: 6rem;
+    padding-top: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -226,6 +226,7 @@ input.btn:hover {
     border: 1px solid #fff;
     background-color: #000;
     color: #fff;
+    cursor: pointer;
 }
 
 input,
