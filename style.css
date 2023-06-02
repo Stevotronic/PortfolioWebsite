@@ -6,6 +6,10 @@
     letter-spacing: 0.05rem;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 img, svg {
     width: 100%;
     display: block;
@@ -152,9 +156,17 @@ text-decoration: underline;
     cursor: pointer;
 }
 
+.skill:hover {
+    opacity: 0.5;
+}
+
 .skill-ul {
     display: none;
-    padding-left: 2rem;
+    padding-left: 2.5rem;
+}
+
+.skill-ul li {
+    padding-top: .5rem;
 }
 
 #contact {
