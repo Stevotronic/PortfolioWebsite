@@ -1,2 +1,4 @@
 # PortfolioWebsite
-My portfolio. Stay in touch, it will grow.
+My personal portfolio of web projects.
+
+Stay in touch, it will grow.
