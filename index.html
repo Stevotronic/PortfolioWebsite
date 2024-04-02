@@ -132,16 +132,20 @@
         <h2>contact</h2>
         <p>You can just fill in the form below to contact me.
         </p><br>
-        <form action="https://formsubmit.co/s.emmelkamp@gmail.com" method="POST">
-            <label for="email">e-mail</label><br>
-            <input type="text" id="email" name="email" required>
-            <br>
-            <label for="text-area">You got something to say?</label><br>
-            <textarea id="text-area" name="comment"></textarea><br>
-            <input class="label" type="hidden" name="_subject" value="Yes, een aanvraag?!">
-            <input class="label" type="hidden" name="_next" value="./thankyou.html">
-            <input class="btn" type="submit" value="submit">
-        </form>
+        <form action="https://submit-form.com/1BqZWKD3h" method="POST">
+            <label class="label" for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Name" required="" /><br>
+            <label class="label" for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Email" required="" /><br>
+            <label class="label" for="message">Message</label><br>
+            <textarea
+                id="message"
+                name="message"
+                placeholder="Message"
+                required=""
+            ></textarea><br>
+            <button class="btn" type="submit">Send</button>
+            </form>
     </section>
 </body>
 </html>

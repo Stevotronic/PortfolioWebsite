@@ -221,16 +221,17 @@ a.available {
     justify-content: space-between;
 }
 
-input.btn {
+button.btn {
     padding: 0.5rem 1rem;
     font-weight: 400;
     font-size: 1.25rem;
     border-radius: 2rem;
     border: 1px solid black;
     background-color: white;
+    margin-bottom: 3rem;
 }
 
-input.btn:hover {
+button.btn:hover {
     border: 1px solid #fff;
     background-color: #000;
     color: #fff;
